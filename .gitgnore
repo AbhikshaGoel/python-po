@@ -1,0 +1,24 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+
+# Logs
+logs/
+*.log
+
+# Database
+data/posts.db
+
+# Media cache
+data/media_cache/
+
+# VS Code
+.vscode/
