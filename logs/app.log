@@ -1,0 +1,407 @@
+2026-02-12 06:19:51 | INFO | main | Database initialized
+2026-02-12 06:19:51 | INFO | poster | Starting Poster service...
+2026-02-12 06:19:51 | ERROR | telegram | Telegram API error: {'ok': False, 'error_code': 404, 'description': 'Not Found'}
+2026-02-12 06:19:51 | ERROR | poster | Telegram bot validation failed!
+2026-02-12 06:19:51 | ERROR | main | Failed to start poster service
+2026-02-12 06:34:56 | INFO | main | Database initialized
+2026-02-12 06:34:56 | INFO | poster | Starting Poster service...
+2026-02-12 06:34:57 | INFO | telegram | Telegram bot validated: @Ankit_fb_bot
+2026-02-12 06:34:57 | ERROR | platform.facebook | Facebook auth error: Invalid OAuth access token - Cannot parse access token
+2026-02-12 06:34:58 | ERROR | platform.instagram | Instagram auth error: Invalid OAuth access token - Cannot parse access token
+2026-02-12 06:34:58 | ERROR | platform.twitter | Twitter auth error: 401 Unauthorized
+Unauthorized
+2026-02-12 06:34:58 | ERROR | platform.youtube | YouTube token refresh failed: {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'}
+2026-02-12 06:34:58 | INFO | poster |   Platform facebook: ✗
+2026-02-12 06:34:58 | INFO | poster |   Platform instagram: ✗
+2026-02-12 06:34:58 | INFO | poster |   Platform twitter: ✗
+2026-02-12 06:34:58 | INFO | poster |   Platform youtube: ✗
+2026-02-12 06:34:58 | INFO | telegram | Telegram bot polling started
+2026-02-12 06:34:58 | INFO | poster | Poster service started successfully
+2026-02-12 06:34:58 | INFO | scheduler | Scheduled posting at 09:00
+2026-02-12 06:34:58 | INFO | scheduler | Scheduled posting at 13:00
+2026-02-12 06:34:58 | INFO | scheduler | Scheduled posting at 18:00
+2026-02-12 06:34:58 | INFO | scheduler | Scheduler started
+2026-02-12 06:34:58 | INFO | main | Starting webhook server on port 5123
+2026-02-12 06:34:58 | INFO | main | ==================================================
+2026-02-12 06:34:58 | INFO | main | Social Poster is running!
+2026-02-12 06:34:58 | INFO | main | Webhook: http://localhost:5123/v1/content
+2026-02-12 06:34:58 | INFO | main | Health:  http://localhost:5123/health
+2026-02-12 06:34:58 | INFO | main | ==================================================
+2026-02-12 06:34:58 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5123
+ * Running on http://10.0.3.119:5123
+2026-02-12 06:34:58 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-02-12 06:35:29 | ERROR | telegram | Telegram request failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+2026-02-12 06:35:50 | INFO | main | Shutting down...
+2026-02-12 06:35:50 | INFO | scheduler | Scheduler stopped
+2026-02-12 06:35:50 | INFO | poster | Poster service stopped
+2026-02-12 06:52:18 | INFO | main | Database initialized
+2026-02-12 06:52:18 | INFO | poster | Starting Poster service...
+2026-02-12 06:52:19 | INFO | telegram | Telegram bot validated: @Ankit_fb_bot
+2026-02-12 06:52:19 | ERROR | platform.facebook | Facebook auth error: API access blocked.
+2026-02-12 06:52:20 | ERROR | platform.instagram | Instagram auth error: Invalid OAuth access token - Cannot parse access token
+2026-02-12 06:52:20 | ERROR | platform.twitter | Twitter auth error: 401 Unauthorized
+Unauthorized
+2026-02-12 06:52:20 | ERROR | platform.youtube | YouTube token refresh failed: {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'}
+2026-02-12 06:52:20 | INFO | poster |   Platform facebook: ✗
+2026-02-12 06:52:20 | INFO | poster |   Platform instagram: ✗
+2026-02-12 06:52:20 | INFO | poster |   Platform twitter: ✗
+2026-02-12 06:52:20 | INFO | poster |   Platform youtube: ✗
+2026-02-12 06:52:20 | INFO | telegram | Telegram bot polling started
+2026-02-12 06:52:20 | INFO | poster | Poster service started successfully
+2026-02-12 06:52:20 | INFO | scheduler | Scheduled posting at 09:00
+2026-02-12 06:52:20 | INFO | scheduler | Scheduled posting at 13:00
+2026-02-12 06:52:20 | INFO | scheduler | Scheduled posting at 18:00
+2026-02-12 06:52:20 | INFO | scheduler | Scheduler started
+2026-02-12 06:52:20 | INFO | main | Starting webhook server on port 5123
+2026-02-12 06:52:20 | INFO | main | ==================================================
+2026-02-12 06:52:20 | INFO | main | Social Poster is running!
+2026-02-12 06:52:20 | INFO | main | Webhook: http://localhost:5123/v1/content
+2026-02-12 06:52:20 | INFO | main | Health:  http://localhost:5123/health
+2026-02-12 06:52:20 | INFO | main | ==================================================
+2026-02-12 06:52:20 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5123
+ * Running on http://10.0.3.119:5123
+2026-02-12 06:52:20 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-02-12 06:52:51 | ERROR | telegram | Telegram request failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+2026-02-12 06:53:21 | ERROR | telegram | Telegram request failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+2026-02-12 06:53:51 | ERROR | telegram | Telegram request failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+2026-02-12 06:54:22 | ERROR | telegram | Telegram request failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+2026-02-12 06:54:52 | ERROR | telegram | Telegram request failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+2026-02-12 06:55:23 | ERROR | telegram | Telegram request failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+2026-02-12 06:55:32 | INFO | main | Shutting down...
+2026-02-12 06:55:32 | INFO | scheduler | Scheduler stopped
+2026-02-12 06:55:32 | INFO | poster | Poster service stopped
+2026-02-12 06:55:34 | INFO | main | Database initialized
+2026-02-12 06:55:34 | INFO | poster | Starting Poster service...
+2026-02-12 06:55:34 | INFO | telegram | Telegram bot validated: @Ankit_fb_bot
+2026-02-12 06:55:35 | ERROR | platform.facebook | Facebook auth error: Cannot call API for app 2977539139105401 on behalf of user 122113929081166409
+2026-02-12 06:55:35 | ERROR | platform.instagram | Instagram auth error: Invalid OAuth access token - Cannot parse access token
+2026-02-12 06:55:35 | ERROR | platform.twitter | Twitter auth error: 401 Unauthorized
+Unauthorized
+2026-02-12 06:55:35 | ERROR | platform.youtube | YouTube token refresh failed: {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'}
+2026-02-12 06:55:36 | INFO | poster |   Platform facebook: ✗
+2026-02-12 06:55:36 | INFO | poster |   Platform instagram: ✗
+2026-02-12 06:55:36 | INFO | poster |   Platform twitter: ✗
+2026-02-12 06:55:36 | INFO | poster |   Platform youtube: ✗
+2026-02-12 06:55:36 | INFO | telegram | Telegram bot polling started
+2026-02-12 06:55:36 | INFO | poster | Poster service started successfully
+2026-02-12 06:55:36 | INFO | scheduler | Scheduled posting at 09:00
+2026-02-12 06:55:36 | INFO | scheduler | Scheduled posting at 13:00
+2026-02-12 06:55:36 | INFO | scheduler | Scheduled posting at 18:00
+2026-02-12 06:55:36 | INFO | scheduler | Scheduler started
+2026-02-12 06:55:36 | INFO | main | Starting webhook server on port 5123
+2026-02-12 06:55:36 | INFO | main | ==================================================
+2026-02-12 06:55:36 | INFO | main | Social Poster is running!
+2026-02-12 06:55:36 | INFO | main | Webhook: http://localhost:5123/v1/content
+2026-02-12 06:55:36 | INFO | main | Health:  http://localhost:5123/health
+2026-02-12 06:55:36 | INFO | main | ==================================================
+2026-02-12 06:55:36 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5123
+ * Running on http://10.0.3.119:5123
+2026-02-12 06:55:36 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-02-12 06:55:37 | INFO | main | Shutting down...
+2026-02-12 06:55:37 | INFO | scheduler | Scheduler stopped
+2026-02-12 06:55:37 | INFO | poster | Poster service stopped
+2026-02-12 07:08:33 | INFO | main | Database initialized
+2026-02-12 07:08:33 | INFO | poster | Starting Poster service...
+2026-02-12 07:08:33 | INFO | telegram | Telegram bot validated: @Ankit_fb_bot
+2026-02-12 07:08:37 | INFO | platform.facebook | Facebook authenticated as: Litti Chokha News
+2026-02-12 07:08:37 | ERROR | platform.instagram | Instagram auth error: Invalid OAuth access token - Cannot parse access token
+2026-02-12 07:08:38 | ERROR | platform.twitter | Twitter auth error: 401 Unauthorized
+Unauthorized
+2026-02-12 07:08:38 | ERROR | platform.youtube | YouTube token refresh failed: {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'}
+2026-02-12 07:08:38 | INFO | poster |   Platform facebook: ✓
+2026-02-12 07:08:38 | INFO | poster |   Platform instagram: ✗
+2026-02-12 07:08:38 | INFO | poster |   Platform twitter: ✗
+2026-02-12 07:08:38 | INFO | poster |   Platform youtube: ✗
+2026-02-12 07:08:38 | INFO | telegram | Telegram bot polling started
+2026-02-12 07:08:38 | INFO | poster | Poster service started successfully
+2026-02-12 07:08:38 | INFO | scheduler | Scheduled posting at 09:00
+2026-02-12 07:08:38 | INFO | scheduler | Scheduled posting at 13:00
+2026-02-12 07:08:38 | INFO | scheduler | Scheduled posting at 18:00
+2026-02-12 07:08:38 | INFO | scheduler | Scheduler started
+2026-02-12 07:08:38 | INFO | main | Starting webhook server on port 5123
+2026-02-12 07:08:38 | INFO | main | ==================================================
+2026-02-12 07:08:38 | INFO | main | Social Poster is running!
+2026-02-12 07:08:38 | INFO | main | Webhook: http://localhost:5123/v1/content
+2026-02-12 07:08:38 | INFO | main | Health:  http://localhost:5123/health
+2026-02-12 07:08:38 | INFO | main | ==================================================
+2026-02-12 07:08:38 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5123
+ * Running on http://10.0.3.119:5123
+2026-02-12 07:08:38 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-02-12 07:08:49 | INFO | main | Shutting down...
+2026-02-12 07:08:49 | INFO | scheduler | Scheduler stopped
+2026-02-12 07:08:49 | INFO | poster | Poster service stopped
+2026-02-12 07:09:40 | INFO | main | Database initialized
+2026-02-12 07:09:40 | INFO | poster | Starting Poster service...
+2026-02-12 07:09:41 | INFO | telegram | Telegram bot validated: @Ankit_fb_bot
+2026-02-12 07:09:41 | INFO | platform.facebook | Facebook authenticated as: Litti Chokha News
+2026-02-12 07:09:42 | ERROR | platform.instagram | Instagram auth error: Invalid OAuth access token - Cannot parse access token
+2026-02-12 07:09:42 | ERROR | platform.twitter | Twitter auth error: 401 Unauthorized
+Unauthorized
+2026-02-12 07:09:42 | ERROR | platform.youtube | YouTube token refresh failed: {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'}
+2026-02-12 07:09:42 | INFO | poster |   Platform facebook: ✓
+2026-02-12 07:09:42 | INFO | poster |   Platform instagram: ✗
+2026-02-12 07:09:42 | INFO | poster |   Platform twitter: ✗
+2026-02-12 07:09:42 | INFO | poster |   Platform youtube: ✗
+2026-02-12 07:09:42 | INFO | telegram | Telegram bot polling started
+2026-02-12 07:09:42 | INFO | poster | Poster service started successfully
+2026-02-12 07:09:42 | INFO | scheduler | Scheduled posting at 09:00
+2026-02-12 07:09:42 | INFO | scheduler | Scheduled posting at 13:00
+2026-02-12 07:09:42 | INFO | scheduler | Scheduled posting at 18:00
+2026-02-12 07:09:42 | INFO | scheduler | Scheduler started
+2026-02-12 07:09:42 | INFO | main | Starting webhook server on port 5123
+2026-02-12 07:09:42 | INFO | main | ==================================================
+2026-02-12 07:09:42 | INFO | main | Social Poster is running!
+2026-02-12 07:09:42 | INFO | main | Webhook: http://localhost:5123/v1/content
+2026-02-12 07:09:42 | INFO | main | Health:  http://localhost:5123/health
+2026-02-12 07:09:42 | INFO | main | ==================================================
+2026-02-12 07:09:42 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5123
+ * Running on http://10.0.3.119:5123
+2026-02-12 07:09:42 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-02-12 07:09:43 | INFO | main | Shutting down...
+2026-02-12 07:09:43 | INFO | scheduler | Scheduler stopped
+2026-02-12 07:09:43 | INFO | poster | Poster service stopped
+2026-02-12 07:24:22 | INFO | main | Database initialized
+2026-02-12 07:24:22 | INFO | poster | Starting Poster service...
+2026-02-12 07:24:22 | INFO | telegram | Telegram bot validated: @Ankit_fb_bot
+2026-02-12 07:24:23 | INFO | platform.facebook | Facebook authenticated as: Litti Chokha News
+2026-02-12 07:24:23 | ERROR | platform.instagram | Instagram auth error: Invalid OAuth access token - Cannot parse access token
+2026-02-12 07:24:24 | ERROR | platform.twitter | Twitter auth error: 401 Unauthorized
+Unauthorized
+2026-02-12 07:24:24 | ERROR | platform.youtube | YouTube token refresh failed: {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'}
+2026-02-12 07:24:24 | INFO | poster |   Platform facebook: ✓
+2026-02-12 07:24:24 | INFO | poster |   Platform instagram: ✗
+2026-02-12 07:24:24 | INFO | poster |   Platform twitter: ✗
+2026-02-12 07:24:24 | INFO | poster |   Platform youtube: ✗
+2026-02-12 07:24:24 | INFO | telegram | Telegram bot polling started
+2026-02-12 07:24:24 | INFO | poster | Poster service started successfully
+2026-02-12 07:24:24 | INFO | scheduler | Scheduled posting at 09:00
+2026-02-12 07:24:24 | INFO | scheduler | Scheduled posting at 13:00
+2026-02-12 07:24:24 | INFO | scheduler | Scheduled posting at 18:00
+2026-02-12 07:24:24 | INFO | scheduler | Scheduler started
+2026-02-12 07:24:24 | INFO | main | Starting webhook server on port 5123
+2026-02-12 07:24:24 | INFO | main | ==================================================
+2026-02-12 07:24:24 | INFO | main | Social Poster is running!
+2026-02-12 07:24:24 | INFO | main | Webhook: http://localhost:5123/v1/content
+2026-02-12 07:24:24 | INFO | main | Health:  http://localhost:5123/health
+2026-02-12 07:24:24 | INFO | main | ==================================================
+2026-02-12 07:24:24 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5123
+ * Running on http://10.0.3.119:5123
+2026-02-12 07:24:24 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-02-12 07:24:39 | INFO | werkzeug | 127.0.0.1 - - [12/Feb/2026 07:24:39] "[31m[1mPOST /v1/content HTTP/1.1[0m" 401 -
+2026-02-12 07:24:55 | ERROR | telegram | Telegram request failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+2026-02-12 07:25:25 | ERROR | telegram | Telegram request failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+2026-02-12 07:25:55 | ERROR | telegram | Telegram request failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+2026-02-12 07:26:26 | ERROR | telegram | Telegram request failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+2026-02-12 07:26:56 | ERROR | telegram | Telegram request failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+2026-02-12 07:27:27 | ERROR | telegram | Telegram request failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+2026-02-12 07:27:57 | ERROR | telegram | Telegram request failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+2026-02-12 07:28:27 | ERROR | telegram | Telegram request failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+2026-02-12 07:28:58 | ERROR | telegram | Telegram request failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+2026-02-12 07:29:28 | ERROR | telegram | Telegram request failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+2026-02-12 07:29:59 | ERROR | telegram | Telegram request failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+2026-02-12 07:30:29 | ERROR | telegram | Telegram request failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+2026-02-12 07:31:00 | ERROR | telegram | Telegram request failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+2026-02-12 07:31:30 | ERROR | telegram | Telegram request failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+2026-02-12 07:31:43 | INFO | main | Shutting down...
+2026-02-12 07:31:43 | INFO | scheduler | Scheduler stopped
+2026-02-12 07:31:43 | INFO | poster | Poster service stopped
+2026-02-12 07:31:49 | INFO | main | Database initialized
+2026-02-12 07:31:49 | INFO | poster | Starting Poster service...
+2026-02-12 07:31:50 | INFO | telegram | Telegram bot validated: @Ankit_fb_bot
+2026-02-12 07:31:50 | INFO | platform.facebook | Facebook authenticated as: Litti Chokha News
+2026-02-12 07:31:51 | ERROR | platform.instagram | Instagram auth error: Invalid OAuth access token - Cannot parse access token
+2026-02-12 07:31:51 | ERROR | platform.twitter | Twitter auth error: 401 Unauthorized
+Unauthorized
+2026-02-12 07:31:51 | ERROR | platform.youtube | YouTube token refresh failed: {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'}
+2026-02-12 07:31:51 | INFO | poster |   Platform facebook: ✓
+2026-02-12 07:31:51 | INFO | poster |   Platform instagram: ✗
+2026-02-12 07:31:51 | INFO | poster |   Platform twitter: ✗
+2026-02-12 07:31:51 | INFO | poster |   Platform youtube: ✗
+2026-02-12 07:31:51 | INFO | telegram | Telegram bot polling started
+2026-02-12 07:31:51 | INFO | poster | Poster service started successfully
+2026-02-12 07:31:51 | INFO | scheduler | Scheduled posting at 09:00
+2026-02-12 07:31:51 | INFO | scheduler | Scheduled posting at 13:00
+2026-02-12 07:31:51 | INFO | scheduler | Scheduled posting at 18:00
+2026-02-12 07:31:51 | INFO | scheduler | Scheduler started
+2026-02-12 07:31:51 | INFO | main | Starting webhook server on port 5123
+2026-02-12 07:31:51 | INFO | main | ==================================================
+2026-02-12 07:31:51 | INFO | main | Social Poster is running!
+2026-02-12 07:31:51 | INFO | main | Webhook: http://localhost:5123/v1/content
+2026-02-12 07:31:51 | INFO | main | Health:  http://localhost:5123/health
+2026-02-12 07:31:51 | INFO | main | ==================================================
+2026-02-12 07:31:51 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5123
+ * Running on http://10.0.3.119:5123
+2026-02-12 07:31:51 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-02-12 07:32:21 | ERROR | telegram | Telegram request failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+2026-02-12 07:32:22 | INFO | main | Shutting down...
+2026-02-12 07:32:22 | INFO | scheduler | Scheduler stopped
+2026-02-12 07:32:22 | INFO | poster | Poster service stopped
+2026-02-12 07:32:45 | INFO | main | Database initialized
+2026-02-12 07:32:45 | INFO | poster | Starting Poster service...
+2026-02-12 07:32:45 | INFO | telegram | Telegram bot validated: @Ankit_fb_bot
+2026-02-12 07:32:46 | INFO | platform.facebook | Facebook authenticated as: Litti Chokha News
+2026-02-12 07:32:46 | ERROR | platform.instagram | Instagram auth error: Invalid OAuth access token - Cannot parse access token
+2026-02-12 07:32:46 | ERROR | platform.twitter | Twitter auth error: 401 Unauthorized
+Unauthorized
+2026-02-12 07:32:47 | ERROR | platform.youtube | YouTube token refresh failed: {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'}
+2026-02-12 07:32:47 | INFO | poster |   Platform facebook: ✓
+2026-02-12 07:32:47 | INFO | poster |   Platform instagram: ✗
+2026-02-12 07:32:47 | INFO | poster |   Platform twitter: ✗
+2026-02-12 07:32:47 | INFO | poster |   Platform youtube: ✗
+2026-02-12 07:32:47 | INFO | telegram | Telegram bot polling started
+2026-02-12 07:32:47 | INFO | poster | Poster service started successfully
+2026-02-12 07:32:47 | INFO | scheduler | Scheduled posting at 09:00
+2026-02-12 07:32:47 | INFO | scheduler | Scheduled posting at 13:00
+2026-02-12 07:32:47 | INFO | scheduler | Scheduled posting at 18:00
+2026-02-12 07:32:47 | INFO | scheduler | Scheduler started
+2026-02-12 07:32:47 | INFO | main | Starting webhook server on port 5123
+2026-02-12 07:32:47 | INFO | main | ==================================================
+2026-02-12 07:32:47 | INFO | main | Social Poster is running!
+2026-02-12 07:32:47 | INFO | main | Webhook: http://localhost:5123/v1/content
+2026-02-12 07:32:47 | INFO | main | Health:  http://localhost:5123/health
+2026-02-12 07:32:47 | INFO | main | ==================================================
+2026-02-12 07:32:47 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5123
+ * Running on http://10.0.3.119:5123
+2026-02-12 07:32:47 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-02-12 07:32:56 | INFO | werkzeug | 127.0.0.1 - - [12/Feb/2026 07:32:56] "[31m[1mPOST /v1/content HTTP/1.1[0m" 401 -
+2026-02-12 07:32:56 | INFO | werkzeug | 127.0.0.1 - - [12/Feb/2026 07:32:56] "[31m[1mPOST /v1/content HTTP/1.1[0m" 401 -
+2026-02-12 07:33:01 | INFO | main | Shutting down...
+2026-02-12 07:33:01 | INFO | scheduler | Scheduler stopped
+2026-02-12 07:33:01 | INFO | poster | Poster service stopped
+2026-02-12 07:34:52 | INFO | main | Database initialized
+2026-02-12 07:34:52 | INFO | poster | Starting Poster service...
+2026-02-12 07:34:53 | INFO | telegram | Telegram bot validated: @Ankit_fb_bot
+2026-02-12 07:34:53 | INFO | platform.facebook | Facebook authenticated as: Litti Chokha News
+2026-02-12 07:34:54 | ERROR | platform.instagram | Instagram auth error: Invalid OAuth access token - Cannot parse access token
+2026-02-12 07:34:54 | ERROR | platform.twitter | Twitter auth error: 401 Unauthorized
+Unauthorized
+2026-02-12 07:34:54 | ERROR | platform.youtube | YouTube token refresh failed: {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'}
+2026-02-12 07:34:54 | INFO | poster |   Platform facebook: ✓
+2026-02-12 07:34:54 | INFO | poster |   Platform instagram: ✗
+2026-02-12 07:34:54 | INFO | poster |   Platform twitter: ✗
+2026-02-12 07:34:54 | INFO | poster |   Platform youtube: ✗
+2026-02-12 07:34:54 | INFO | telegram | Telegram bot polling started
+2026-02-12 07:34:54 | INFO | poster | Poster service started successfully
+2026-02-12 07:34:54 | INFO | scheduler | Scheduled posting at 09:00
+2026-02-12 07:34:54 | INFO | scheduler | Scheduled posting at 13:00
+2026-02-12 07:34:54 | INFO | scheduler | Scheduled posting at 18:00
+2026-02-12 07:34:54 | INFO | scheduler | Scheduler started
+2026-02-12 07:34:54 | INFO | main | Starting webhook server on port 5123
+2026-02-12 07:34:54 | INFO | main | ==================================================
+2026-02-12 07:34:54 | INFO | main | Social Poster is running!
+2026-02-12 07:34:54 | INFO | main | Webhook: http://localhost:5123/v1/content
+2026-02-12 07:34:54 | INFO | main | Health:  http://localhost:5123/health
+2026-02-12 07:34:54 | INFO | main | ==================================================
+2026-02-12 07:34:54 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5123
+ * Running on http://10.0.3.119:5123
+2026-02-12 07:34:54 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-02-12 07:34:56 | INFO | werkzeug | 127.0.0.1 - - [12/Feb/2026 07:34:56] "[31m[1mPOST /v1/content HTTP/1.1[0m" 401 -
+2026-02-12 07:35:02 | INFO | main | Shutting down...
+2026-02-12 07:35:02 | INFO | scheduler | Scheduler stopped
+2026-02-12 07:35:02 | INFO | poster | Poster service stopped
+2026-02-12 07:37:54 | INFO | main | Database initialized
+2026-02-12 07:37:54 | INFO | poster | Starting Poster service...
+2026-02-12 07:37:55 | INFO | telegram | Telegram bot validated: @Ankit_fb_bot
+2026-02-12 07:37:55 | INFO | platform.facebook | Facebook authenticated as: Litti Chokha News
+2026-02-12 07:37:56 | ERROR | platform.instagram | Instagram auth error: Invalid OAuth access token - Cannot parse access token
+2026-02-12 07:37:56 | ERROR | platform.twitter | Twitter auth error: 401 Unauthorized
+Unauthorized
+2026-02-12 07:37:56 | ERROR | platform.youtube | YouTube token refresh failed: {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'}
+2026-02-12 07:37:56 | INFO | poster |   Platform facebook: ✓
+2026-02-12 07:37:56 | INFO | poster |   Platform instagram: ✗
+2026-02-12 07:37:56 | INFO | poster |   Platform twitter: ✗
+2026-02-12 07:37:56 | INFO | poster |   Platform youtube: ✗
+2026-02-12 07:37:56 | INFO | telegram | Telegram bot polling started
+2026-02-12 07:37:56 | INFO | poster | Poster service started successfully
+2026-02-12 07:37:56 | INFO | scheduler | Scheduled posting at 09:00
+2026-02-12 07:37:56 | INFO | scheduler | Scheduled posting at 13:00
+2026-02-12 07:37:56 | INFO | scheduler | Scheduled posting at 18:00
+2026-02-12 07:37:56 | INFO | scheduler | Scheduler started
+2026-02-12 07:37:56 | INFO | main | Starting webhook server on port 5123
+2026-02-12 07:37:56 | INFO | main | ==================================================
+2026-02-12 07:37:56 | INFO | main | Social Poster is running!
+2026-02-12 07:37:56 | INFO | main | Webhook: http://localhost:5123/v1/content
+2026-02-12 07:37:56 | INFO | main | Health:  http://localhost:5123/health
+2026-02-12 07:37:56 | INFO | main | ==================================================
+2026-02-12 07:37:56 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5123
+ * Running on http://10.0.3.119:5123
+2026-02-12 07:37:56 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-02-12 07:37:58 | INFO | werkzeug | 127.0.0.1 - - [12/Feb/2026 07:37:58] "[31m[1mPOST /v1/content HTTP/1.1[0m" 400 -
+2026-02-12 07:38:04 | INFO | main | Shutting down...
+2026-02-12 07:38:04 | INFO | scheduler | Scheduler stopped
+2026-02-12 07:38:04 | INFO | poster | Poster service stopped
+2026-02-12 07:38:55 | INFO | main | Database initialized
+2026-02-12 07:38:55 | INFO | poster | Starting Poster service...
+2026-02-12 07:38:56 | INFO | telegram | Telegram bot validated: @Ankit_fb_bot
+2026-02-12 07:38:56 | INFO | platform.facebook | Facebook authenticated as: Litti Chokha News
+2026-02-12 07:38:57 | ERROR | platform.instagram | Instagram auth error: Invalid OAuth access token - Cannot parse access token
+2026-02-12 07:38:57 | ERROR | platform.twitter | Twitter auth error: 401 Unauthorized
+Unauthorized
+2026-02-12 07:38:57 | ERROR | platform.youtube | YouTube token refresh failed: {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'}
+2026-02-12 07:38:57 | INFO | poster |   Platform facebook: ✓
+2026-02-12 07:38:57 | INFO | poster |   Platform instagram: ✗
+2026-02-12 07:38:57 | INFO | poster |   Platform twitter: ✗
+2026-02-12 07:38:57 | INFO | poster |   Platform youtube: ✗
+2026-02-12 07:38:57 | INFO | telegram | Telegram bot polling started
+2026-02-12 07:38:57 | INFO | poster | Poster service started successfully
+2026-02-12 07:38:57 | INFO | scheduler | Scheduled posting at 09:00
+2026-02-12 07:38:57 | INFO | scheduler | Scheduled posting at 13:00
+2026-02-12 07:38:57 | INFO | scheduler | Scheduled posting at 18:00
+2026-02-12 07:38:57 | INFO | scheduler | Scheduler started
+2026-02-12 07:38:57 | INFO | main | Starting webhook server on port 5123
+2026-02-12 07:38:57 | INFO | main | ==================================================
+2026-02-12 07:38:57 | INFO | main | Social Poster is running!
+2026-02-12 07:38:57 | INFO | main | Webhook: http://localhost:5123/v1/content
+2026-02-12 07:38:57 | INFO | main | Health:  http://localhost:5123/health
+2026-02-12 07:38:57 | INFO | main | ==================================================
+2026-02-12 07:38:57 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5123
+ * Running on http://10.0.3.119:5123
+2026-02-12 07:38:57 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-02-12 07:39:00 | INFO | poster | Created post #1: Manual Test
+2026-02-12 07:39:01 | INFO | werkzeug | 127.0.0.1 - - [12/Feb/2026 07:39:01] "[35m[1mPOST /v1/content HTTP/1.1[0m" 202 -
+2026-02-12 07:39:11 | INFO | telegram | Post 1 manually approved
+2026-02-12 07:39:11 | INFO | poster | Post #1 approved, starting posting...
+2026-02-12 07:39:11 | INFO | poster | Processing media for post #1
+2026-02-12 07:39:12 | INFO | media.processor | Processed image for facebook: 800x600, 101KB
+2026-02-12 07:39:12 | INFO | media.processor | Processed image for instagram: 800x600, 101KB
+2026-02-12 07:39:12 | INFO | media.processor | Processed image for twitter: 800x600, 101KB
+2026-02-12 07:39:12 | INFO | media.processor | Processed image for youtube: 800x600, 101KB
+2026-02-12 07:39:12 | INFO | media.processor | Processed image for linkedin: 800x600, 101KB
+2026-02-12 07:39:12 | INFO | poster | Posting to facebook...
+2026-02-12 07:39:17 | INFO | platform.facebook | Posted image to Facebook: 890887797446499_122113327347172962
+2026-02-12 07:39:17 | INFO | poster |   ✓ facebook: https://facebook.com/890887797446499_122113327347172962
+2026-02-12 07:39:19 | INFO | poster | Posting to instagram...
+2026-02-12 07:39:19 | ERROR | platform.instagram | Instagram requires a public URL, not a local file path. Upload image to CDN first.
+2026-02-12 07:39:19 | ERROR | poster |   ✗ instagram: Local file not supported, need public URL
+2026-02-12 07:39:21 | INFO | poster | Posting to twitter...
+2026-02-12 07:39:22 | ERROR | poster |   ✗ twitter: 401 Unauthorized
+89 - Invalid or expired token
+2026-02-12 07:39:25 | INFO | poster | Posting to youtube...
+2026-02-12 07:39:25 | ERROR | platform.youtube | YouTube token refresh failed: {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'}
+2026-02-12 07:39:25 | ERROR | poster |   ✗ youtube: Failed to refresh access token
+2026-02-12 07:39:28 | WARNING | poster | Post #1 partial: 1/4 platforms
+2026-02-12 07:39:37 | INFO | main | Shutting down...
+2026-02-12 07:39:37 | INFO | scheduler | Scheduler stopped
+2026-02-12 07:39:37 | INFO | poster | Poster service stopped

@@ -12,7 +12,7 @@ from platforms.facebook import FacebookPlatform
 from platforms.twitter import TwitterPlatform
 from platforms.instagram import InstagramPlatform
 from platforms.youtube import YouTubePlatform
-from platforms.linkedin import LinkedInPlatform
+
 
 # Registry mapping name → class
 _REGISTRY: dict[str, type[BasePlatform]] = {
@@ -20,7 +20,7 @@ _REGISTRY: dict[str, type[BasePlatform]] = {
     "twitter": TwitterPlatform,
     "instagram": InstagramPlatform,
     "youtube": YouTubePlatform,
-    "linkedin": LinkedInPlatform,
+
 }
 
 # Cached instances

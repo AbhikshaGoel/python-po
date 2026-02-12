@@ -8,3 +8,4 @@ vaderSentiment==3.3.2
 Pillow==10.2.0
 schedule==1.2.1
 slack-sdk==3.27.0
+flask
